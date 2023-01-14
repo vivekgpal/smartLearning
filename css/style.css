@@ -1,0 +1,31 @@
+body{
+   background-color: #d8e3e8;
+}
+.header{
+    background-color: #b1b9c7;
+    padding: 30px;
+
+}
+.course-list-container>div{
+    transition: 0.5s;
+}
+.course-list-container>div:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.course-tabs-header{
+    position: relative;
+    width: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(94, 74, 74);
+}
+.field-topic a{
+    text-decoration: none;
+    transition: 0.5s;
+}
+.field-topic a:hover{
+    transform: scale(1.1);
+}
